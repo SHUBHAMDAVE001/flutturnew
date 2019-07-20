@@ -3,11 +3,14 @@ import 'package:flutter/material.dart';
 class Products extends StatelessWidget {
 final List<String> products;
 
-Products(this.products);
+Products(this.products){
+  print(this.products);
+  print('[Products Widget] Shubham image');
+}
 
   @override
   Widget build(BuildContext context) {
-// TODO: implement build
+  print('[Products Widget] build @@@@@@@@@@@');
     return Column(
         children: products
             .map(
@@ -18,7 +21,8 @@ Products(this.products);
                       Text('Paradise')
                     ],
                   ),
-                ))
+                ),
+              )
             .toList());
   }
 }
