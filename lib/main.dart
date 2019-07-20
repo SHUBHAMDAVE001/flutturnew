@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Kashi yani banaras Yatra'),
         ),
-        body: ProductManger(),
+        body: ProductManger('Shubham photo'),
       ),
     );
   }

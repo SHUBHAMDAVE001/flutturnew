@@ -10,7 +10,8 @@ Products(this.products);
 // TODO: implement build
     return Column(
         children: products
-            .map((element) => Card(
+            .map(
+              (element) => Card(
                   child: Column(
                     children: <Widget>[
                       Image.asset('assets/shubham_new_img.jpg'),
